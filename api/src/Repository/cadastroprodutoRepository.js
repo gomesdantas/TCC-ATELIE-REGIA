@@ -79,7 +79,3 @@ export async function inserircores (cores) {
     return cores;
 }
 
-export async function inserirtamanho (tamanho) {
-    const comando = 
-
-}

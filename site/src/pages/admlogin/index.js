@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { useRef, useState } from 'react'
 import './index.scss';
 import axios from 'axios'
@@ -60,15 +59,6 @@ async function Entrarclick() {
     return (
         <div className='page-login-adm'>
      <LoadingBar color='#0000ff' ref={ref}/>
-=======
-import './index.scss';
-
-export default function Loginadm() {
-
-    return (
-        <div className='page-login-adm'>
-
->>>>>>> 3d8cef6c8b82dc36163d43a076b09ceeb117cf2c
 <div className='adm'>
 <h1>Bem-vindo, administrador</h1>
 </div>
@@ -82,7 +72,6 @@ export default function Loginadm() {
                     <div className='login-inputs'>
                         <div className='login-inputs-email'>
                             <label>EMAIL</label>
-<<<<<<< HEAD
                         <input type="email" placeholder='Digite aqui o seu email' value={email} onChange={(e) => setEmail(e.target.value)}  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" />
                         </div>
                        <div className='login-inputs-senha'>
@@ -95,17 +84,6 @@ export default function Loginadm() {
                     <div className='erro'>
                         {erro}
                         </div>
-=======
-                        <input type="email" placeholder='Digite aqui o seu email' />
-                        </div>
-                       <div className='login-inputs-senha'>
-                       <label>SENHA</label>
-                       <input type="password" placeholder='Digite aqui a sua senha' />
-                       </div>
-                  
-                    </div>
-                    <button>LOGIN</button>
->>>>>>> 3d8cef6c8b82dc36163d43a076b09ceeb117cf2c
                 </div>
             </div>
         </div>

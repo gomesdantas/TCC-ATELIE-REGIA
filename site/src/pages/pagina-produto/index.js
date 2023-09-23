@@ -2,16 +2,12 @@ import './index.scss';
 
 export default function Produto() {
 
-<<<<<<< HEAD
 
     
-=======
->>>>>>> 3d8cef6c8b82dc36163d43a076b09ceeb117cf2c
     return (
         <div className="container-produtos">
             <div className="secao-container-ordem">
                 <div className="faixa-ordem">
-<<<<<<< HEAD
                     <p id='titulo-ordem'>15 PRODUTOS</p>
                     <div className="secao-ordem">
                         <p id='titulo-ordem' >ORDENAR POR </p>
@@ -19,32 +15,16 @@ export default function Produto() {
                             <img id='baixo' src="/assets/images/Arrow 1.png" alt="" />
                             <img id='cima' src="/assets/images/Arrow 2.png" alt="" />
                            
-=======
-                    <p>15 PRODUTOS</p>
-                    <div className="secao-ordem">
-                        <p>ORDENAR POR </p>
-                        <div className="images">
-                            <img src="/assets/images/Arrow 1.png" alt="" />
-                            <img src="/assets/images/Arrow 2.png" alt="" />
-                            <img src="" alt="" />
->>>>>>> 3d8cef6c8b82dc36163d43a076b09ceeb117cf2c
                         </div>
 
                     </div>
                 </div>
 
                 <div className="secao-container-produtos">
-<<<<<<< HEAD
                     <div class="secao-container-filtros" >
 
                         <h6 id='filtra'> <strong>FILTROS</strong></h6>
                         <div class="secoes" id="filtroSecoes">
-=======
-                    <div class="secao-container-filtros">
-
-                        <h6> <strong>FILTROS</strong></h6>
-                        <div class="secoes">
->>>>>>> 3d8cef6c8b82dc36163d43a076b09ceeb117cf2c
                             <h6> <strong>CATEGORIAS</strong> </h6>
                             <div class="secoes-quadrado">
                                 <div class="quadrado"></div><a>Blusas</a>
@@ -63,11 +43,7 @@ export default function Produto() {
 
 
 
-<<<<<<< HEAD
                         <div class="secoes" id="filtroSecoes">
-=======
-                        <div class="secoes">
->>>>>>> 3d8cef6c8b82dc36163d43a076b09ceeb117cf2c
                             <h5><strong> PREÇO</strong></h5>
                             <div class="secoes-quadrado">
                                 <div class="quadrado"></div>
@@ -75,11 +51,7 @@ export default function Produto() {
                             </div>
 
                         </div>
-<<<<<<< HEAD
                         <div class="secoes" id="filtroSecoes">
-=======
-                        <div class="secoes">
->>>>>>> 3d8cef6c8b82dc36163d43a076b09ceeb117cf2c
                             <h6><strong> TAMANHO</strong></h6>
                             <div class="secoes-quadrado">
                                 <div class="quadrado"></div>
@@ -98,11 +70,7 @@ export default function Produto() {
                                 <a>GG</a>
                             </div>
                         </div>
-<<<<<<< HEAD
                         <div class="secoes" id="filtroSecoes">
-=======
-                        <div class="secoes">
->>>>>>> 3d8cef6c8b82dc36163d43a076b09ceeb117cf2c
                             <h6><strong>TECIDO</strong> </h6>
                             <div class="secoes-quadrado">
                                 <div class="quadrado"></div>
@@ -127,11 +95,7 @@ export default function Produto() {
 
                         </div>
 
-<<<<<<< HEAD
                         <div class="secoes" id="filtroSecoes">
-=======
-                        <div class="secoes">
->>>>>>> 3d8cef6c8b82dc36163d43a076b09ceeb117cf2c
                             <h6><strong>COR</strong> </h6>
                             <div class="secoes-quadrado">
                                 <div class="quadrado"></div>
@@ -158,32 +122,19 @@ export default function Produto() {
 
                     <hr />
 
-<<<<<<< HEAD
                     <div id='secao-produto' className="secao-produto">
                         <div id='produtos' className="produtos">
 
                             
                             <div class="produto">
                                 <img id='imagem-produto' src="/assets/images/image 49.png" alt="" />
-=======
-                    <div className="secao-produto">
-                        <div className="produtos">
-
-                            
-                            <div class="produto">
-                                <img src="/assets/images/image 49.png" alt="" />
->>>>>>> 3d8cef6c8b82dc36163d43a076b09ceeb117cf2c
                                 <h3 id="fixado">COMPRAR</h3>
                                 <h1> SHORT LINHO</h1>
                                 <p> Short de Linho Off-White</p>
                                 <p> POR <strong> R$ 110,00</strong></p>
                             </div>
                             <div class="produto">
-<<<<<<< HEAD
                             <img id='imagem-produto' src="/assets/images/image 49.png" alt="" />
-=======
-                            <img src="/assets/images/image 49.png" alt="" />
->>>>>>> 3d8cef6c8b82dc36163d43a076b09ceeb117cf2c
                                 <h3 id="fixado">COMPRAR</h3>
                                 <h1> SHORT LINHO</h1>
                                 <p> Short de Linho Off-White</p>
@@ -191,22 +142,14 @@ export default function Produto() {
                             </div>
                             
                             <div class="produto">
-<<<<<<< HEAD
                             <img id='imagem-produto' src="/assets/images/image 49.png" alt="" />
-=======
-                            <img src="/assets/images/image 49.png" alt="" />
->>>>>>> 3d8cef6c8b82dc36163d43a076b09ceeb117cf2c
                                 <h3 id="fixado">COMPRAR</h3>
                                 <h1> SHORT LINHO</h1>
                                 <p> Short de Linho Off-White</p>
                                 <p> POR <strong> R$ 110,00</strong></p>
                             </div>
                             <div class="produto">
-<<<<<<< HEAD
-                            <img id='imagem-produto' src="/assets/images/image 49.png" alt="" />
-=======
                             <img src="/assets/images/image 49.png" alt="" />
->>>>>>> 3d8cef6c8b82dc36163d43a076b09ceeb117cf2c
                                 <h3 id="fixado">COMPRAR</h3>
                                 <h1> SHORT LINHO</h1>
                                 <p> Short de Linho Off-White</p>

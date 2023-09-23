@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 import {inserirLoginadm, verificarEmailExistente } from '../Repository/Loginadmrepository.js'
+=======
+import {inserirLoginadm} from '../Repository/Loginadmrepository.js'
+>>>>>>> 3d8cef6c8b82dc36163d43a076b09ceeb117cf2c
 
 import { Router } from "express"
 
 const server = Router();
 
+<<<<<<< HEAD
 server.post('/login', async (req, resp) => {
   try {
     const loginparainserir = req.body;
@@ -66,6 +71,30 @@ server.post('/inserirloginadm', async (req, resp) => {
     });
   }
 });
+=======
+server.post('/inserirloginadm', async (req, resp) => {
+
+    try {
+        const loginadmparainserir =req.body;
+
+        const loginadminserido = inserirLoginadm(loginadmparainserir);
+
+        
+        if (!loginadmparainserir.email)
+            throw new Error('O campo email é obrigatório ');
+
+        if (!loginadmparainserir.senha)
+            throw new Error('O campo senha é obrigatório ');
+
+  
+            resp.send(loginadminserido)
+        } catch (err) {
+            resp.status(400).send({
+                erro: err.message
+            })
+        }
+    })
+>>>>>>> 3d8cef6c8b82dc36163d43a076b09ceeb117cf2c
 
 
 

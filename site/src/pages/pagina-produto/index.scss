@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+=======
+@font-face {
+    font-family: 'font1';
+    src: url('../../../public/assets/fonts/krona-one/KronaOne-Regular.ttf');
+}
+
+
+@font-face {
+    font-family: 'font2';
+    src: url('../../../public/assets/fonts/imprima/Imprima-Regular.ttf');
+}
+>>>>>>> 3d8cef6c8b82dc36163d43a076b09ceeb117cf2c
 
 * {
     box-sizing: border-box;
@@ -8,13 +21,22 @@
 
     .faixa-ordem {
         background-color: #F5EAEA;
+<<<<<<< HEAD
         height: 30%;
        
+=======
+        height: 50px;
+        width: 100%;
+>>>>>>> 3d8cef6c8b82dc36163d43a076b09ceeb117cf2c
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+<<<<<<< HEAD
         padding: 0px 20px;
+=======
+        padding: 20px;
+>>>>>>> 3d8cef6c8b82dc36163d43a076b09ceeb117cf2c
     }
     
     
@@ -49,10 +71,16 @@
     }
     
     .secao-container-produtos {
+<<<<<<< HEAD
         margin-top: 100px;
         display: flex;
         flex-direction: row;
         padding: 0px 35px;
+=======
+        display: flex;
+        flex-direction: row;
+        padding: 100px 35px;
+>>>>>>> 3d8cef6c8b82dc36163d43a076b09ceeb117cf2c
     
     }
     
@@ -257,6 +285,7 @@
 }
 
 
+<<<<<<< HEAD
 @media (max-width: 600px) {
     
 
@@ -283,6 +312,13 @@
     width: 10px;
    }
 
+=======
+@media (max-width: 768px) {
+    
+    .faixa-ordem{
+        width: 72vh;
+    }
+>>>>>>> 3d8cef6c8b82dc36163d43a076b09ceeb117cf2c
     .secao-container-produtos{
         display: flex;
         flex-wrap: wrap;
@@ -292,6 +328,7 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+<<<<<<< HEAD
         justify-content: center;
         align-items: center;
         margin-left: -15px;
@@ -309,10 +346,31 @@
 margin-bottom: -10px;
     }
   
+=======
+    }
+    .secao-container-filtros{
+        margin-top: -50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+       
+    }
+
+    .secao-container-filtros>h6{
+        margin-left: -10px;
+    }
+
+    .secoes{
+        display: none;
+    }
+    
+
+>>>>>>> 3d8cef6c8b82dc36163d43a076b09ceeb117cf2c
     hr{
         display: none;
     }
     
+<<<<<<< HEAD
  #secao-produto{
     display: flex;
     flex-wrap: wrap;
@@ -328,4 +386,14 @@ width: 150px;
         
     }
     
+=======
+    .produtos{
+padding: 0px 0px;
+    }
+
+    .produto>img{
+        width: 200px;
+
+    }
+>>>>>>> 3d8cef6c8b82dc36163d43a076b09ceeb117cf2c
 }

@@ -1,18 +1,30 @@
+<<<<<<< HEAD
 import { con } from './connection.js';
 
+=======
+import {con} from './connection.js'
+>>>>>>> 3d8cef6c8b82dc36163d43a076b09ceeb117cf2c
 
 export async function inserirLoginadm(loginadm) {
     
     const comando= 
     
+<<<<<<< HEAD
     `INSERT INTO tb_admin (ds_email, ds_senha   )
     values(?, ?) `;
   
     const [resposta] = await con.query(comando, [loginadm.email, loginadm.senha]);
+=======
+    `INSERT INTO tb_admin (id_admin, ds_email, ds_senha   )
+    values( ?, ?, ?) `;
+  
+    const [resposta] = await con.query(comando, [loginadm.admin, loginadm.email, loginadm.senha]);
+>>>>>>> 3d8cef6c8b82dc36163d43a076b09ceeb117cf2c
     loginadm.id = resposta.insertId;
 
     return loginadm;
 
+<<<<<<< HEAD
 }
 
 export async function verificarEmailExistente(email) {
@@ -38,4 +50,6 @@ export async function buscaremail(email) {
        const [resp] = await con.query(comando, [`%${email}%`]);
        return resp;
 
+=======
+>>>>>>> 3d8cef6c8b82dc36163d43a076b09ceeb117cf2c
 }

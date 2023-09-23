@@ -5,13 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+<<<<<<< HEAD
     "start": "nodemon src/index.js"
+=======
+ "start":"nodemon src/index.js"
+>>>>>>> 3d8cef6c8b82dc36163d43a076b09ceeb117cf2c
   },
   "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "axios": "^1.5.0",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
@@ -20,5 +25,12 @@
     "mysql2": "^3.6.1",
     "nodemon": "^3.0.1",
     "react-top-loading-bar": "^2.3.1"
+=======
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.1",
+    "nodemon": "^3.0.1"
+>>>>>>> 3d8cef6c8b82dc36163d43a076b09ceeb117cf2c
   }
 }

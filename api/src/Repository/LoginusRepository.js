@@ -1,6 +1,5 @@
 import { con } from './connection.js';
 
-<<<<<<< HEAD
 export async function loginCliente(email, senha) {
 
   const comando = `
@@ -45,16 +44,3 @@ export async function inserircadastrousuario(cadastro) {
     return cadastro;
 
 }
-=======
-export async function verificarEmailExistente(email) {
-    try {
-      const [linhas, campos] = await con.execute('SELECT * FROM tb_cadastrocliente WHERE ds_email = ?', [email]);
-  
-      return linhas.length > 0;
-    } catch (err) {
-      console.error('Erro ao verificar email existente:', err);
-      return false;
-    }
-  }
-  
->>>>>>> 78a3911b2299b864c05b78dd63e422aa65b073a4

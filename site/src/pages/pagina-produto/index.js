@@ -2,15 +2,10 @@ import './index.scss';
 
 export default function Produto() {
 
-<<<<<<< HEAD
     
 
 
 
-=======
-
-    
->>>>>>> 78a3911b2299b864c05b78dd63e422aa65b073a4
     return (
         <div className="container-produtos">
             <div className="secao-container-ordem">
@@ -21,11 +16,6 @@ export default function Produto() {
                         <div className="images">
                             <img id='baixo' src="/assets/images/Arrow 1.png" alt="" />
                             <img id='cima' src="/assets/images/Arrow 2.png" alt="" />
-<<<<<<< HEAD
-
-=======
-                           
->>>>>>> 78a3911b2299b864c05b78dd63e422aa65b073a4
                         </div>
 
                     </div>
@@ -136,11 +126,6 @@ export default function Produto() {
                     <div id='secao-produto' className="secao-produto">
                         <div id='produtos' className="produtos">
 
-<<<<<<< HEAD
-
-=======
-                            
->>>>>>> 78a3911b2299b864c05b78dd63e422aa65b073a4
                             <div class="produto">
                                 <img id='imagem-produto' src="/assets/images/image 49.png" alt="" />
                                 <h3 id="fixado">COMPRAR</h3>
@@ -149,44 +134,26 @@ export default function Produto() {
                                 <p> POR <strong> R$ 110,00</strong></p>
                             </div>
                             <div class="produto">
-<<<<<<< HEAD
                                 <img id='imagem-produto' src="/assets/images/image 49.png" alt="" />
-=======
-                            <img id='imagem-produto' src="/assets/images/image 49.png" alt="" />
->>>>>>> 78a3911b2299b864c05b78dd63e422aa65b073a4
                                 <h3 id="fixado">COMPRAR</h3>
                                 <h1> SHORT LINHO</h1>
                                 <p> Short de Linho Off-White</p>
                                 <p> POR <strong> R$ 110,00</strong></p>
-<<<<<<< HEAD
                             </div >
 
                             <div class="produto">
                                 <img id='imagem-produto' src="/assets/images/image 49.png" alt="" />
-=======
-                            </div>
-                            
-                            <div class="produto">
-                            <img id='imagem-produto' src="/assets/images/image 49.png" alt="" />
->>>>>>> 78a3911b2299b864c05b78dd63e422aa65b073a4
                                 <h3 id="fixado">COMPRAR</h3>
                                 <h1> SHORT LINHO</h1>
                                 <p> Short de Linho Off-White</p>
                                 <p> POR <strong> R$ 110,00</strong></p>
-<<<<<<< HEAD
                             </div >
                             <div class="produto">
                                 <img id='imagem-produto' src="/assets/images/image 49.png" alt="" />
-=======
-                            </div>
-                            <div class="produto">
-                            <img src="/assets/images/image 49.png" alt="" />
->>>>>>> 78a3911b2299b864c05b78dd63e422aa65b073a4
                                 <h3 id="fixado">COMPRAR</h3>
                                 <h1> SHORT LINHO</h1>
                                 <p> Short de Linho Off-White</p>
                                 <p> POR <strong> R$ 110,00</strong></p>
-<<<<<<< HEAD
                             </div >
                         </div >
                     </div >
@@ -194,15 +161,6 @@ export default function Produto() {
 
             </div >
         </div >
-=======
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
->>>>>>> 78a3911b2299b864c05b78dd63e422aa65b073a4
 
     )
 
